@@ -3471,12 +3471,13 @@ iframe {
   height: 180px;
   width: 180px;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .testi-box .testimonial-round,
 .testi-box .testimonial-round > img {
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
 }
 
 .testi-box.no-rounded .testimonial-round,

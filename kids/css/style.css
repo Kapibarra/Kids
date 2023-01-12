@@ -983,19 +983,23 @@ ul.social-icons li {
 
 ul.social-icons li a,
 ul.social-icons-simple li a {
-  height: 30px;
-  line-height: 30px;
-  width: 30px;
-  font-size: 16px;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+  font-size: 40px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin: 0 1px;
   text-align: center;
   display: block;
-  color: #ffb902;
+  color: #eee !important;
   position: relative;
   z-index: 1;
   border: 1px solid #ffb902;
+}
+.revicon li a i {
+  font-size: 40px !important;
+  color: #eee !important;
 }
 ul.social-icons.white li a,
 ul.social-icons-simple.white li a {
@@ -1075,7 +1079,7 @@ ul.social-icons.white li a:hover {
   background-color: #4267b2 !important;
 }
 .twitter:before {
-  background-color: #1da1f2 !important;
+  background-color: #1df24b !important;
 }
 .insta:before {
   background: radial-gradient(
@@ -1916,11 +1920,11 @@ a.dropdown-toggle::after {
 }
 
 .transparent-bg .sidemenu_btn > span {
-  background: #606060;
+  background: #dfdfdf;
 }
 
 .fixedmenu .sidemenu_btn > span:not(.gradient-bg) {
-  background: #606060 !important;
+  background: #e7e7e7 !important;
 }
 
 .sidemenu_btn > span:nth-child(2) {

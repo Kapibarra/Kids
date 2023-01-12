@@ -451,6 +451,11 @@ p {
 .font-60 {
   font-size: 60px;
 }
+@media screen and (max-width: 428px) {
+  .font-60 {
+    font-size: 30px;
+  }
+}
 
 .color-dark1 {
   color: #606060;
